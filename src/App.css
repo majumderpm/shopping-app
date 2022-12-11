@@ -1,6 +1,13 @@
 
-
-
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+p{
+  margin: 0 !important;
+}
 
 a{
   text-decoration: none !important;
@@ -12,8 +19,13 @@ a:hover {
 }
 
 
-
-
+ul{
+  margin: 0;
+  padding: 0 !important;
+}
+li{
+  list-style-type: none;
+}
 
 
 
@@ -151,4 +163,60 @@ button.btn-src {
 }
 .navbar-nav .nav-link:hover{
   color: #e73c17;
+}
+
+
+
+/* ====================================== footer */
+
+.footer-main{
+  background-color: #252525;
+  padding: 80px 30px;
+}
+.content h3{
+  color: #fff;
+}
+.f_list{
+  padding: 20px 0 10px !important;
+}
+.f_list li{
+  padding: 5px 0;
+  color: #f2f2f2;
+}
+.f_list li a{
+  color: #f2f2f2;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+/* .f_list li a:first-child{
+  text-transform: none;
+} */
+.f_list li a i{
+  color: #e73c17;
+  margin-right: 10px;
+}
+.f_list li .f_mail{
+  color: #e73c17;
+  text-transform: none;
+}
+.f_list li .f_mail:hover{
+  color: #f8937d !important;
+  text-transform: none;
+}
+.footer-bottom{
+  background-color: #252525;
+  text-align: center;
+  color: #f2f2f2;
+  padding: 30px 0 ; 
+  border-top: 1px solid #494343;
+}
+.copyright a{
+  color: #e73c17;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.copyright i{
+  color: #e73c17;
+ 
 }

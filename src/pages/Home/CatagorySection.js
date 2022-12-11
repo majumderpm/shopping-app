@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const Catagory_section = () => {
+const CatagorySection = () => {
 
     const [product, setProduct] = useState([])
 
@@ -34,7 +34,7 @@ const Catagory_section = () => {
                                 return (
                                     <>
                                         <div className='col-lg-3 col-md-3 col-sm-6' key={id}>
-                                            <div className="card">
+                                            <div className="card card_box">
                                                 <img src={image} className="card-img-top" alt="..." />
                                                 <div className="card-body">
                                                     <p className="card-text">{name}</p>
@@ -54,4 +54,4 @@ const Catagory_section = () => {
     );
 };
 
-export default Catagory_section;
+export default CatagorySection;

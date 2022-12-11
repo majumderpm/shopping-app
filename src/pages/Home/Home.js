@@ -1,14 +1,18 @@
 import React from 'react';
 import Banner from './Banner';
-import Catagory_section from './Catagory_section';
+import CatagorySection from './CatagorySection';
 import '../Home/Home.css';
+import Trusted from './Trusted';
+import SamilarProduct from './SamilarProduct';
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Banner></Banner>
-            <Catagory_section></Catagory_section>
-        </div>
+            <CatagorySection></CatagorySection>
+            <Trusted></Trusted>
+            <SamilarProduct></SamilarProduct>
+        </>
     );
 };
 
