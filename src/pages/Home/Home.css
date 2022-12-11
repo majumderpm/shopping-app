@@ -1,0 +1,12 @@
+/* .carousel-item{
+    height: 80vh;
+} */
+.carousel-item img{
+    border-radius: 20px;
+}
+.catagory_area{
+    padding: 50px 0;
+}
+.catagory_area h2{
+    margin-bottom: 30px;
+}
